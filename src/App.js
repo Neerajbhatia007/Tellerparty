@@ -7,6 +7,7 @@ import Video from './components/Video';
 import Upload from './components/Upload';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/upload' element={<Upload />}/>
         <Route path='/videos' element={<Video />}/>
+        <Route path='/contact' element={<Contact />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<Signup />}/>
       </Routes>

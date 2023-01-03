@@ -53,6 +53,9 @@ const Header = () => {
                         <Button onClick={onClose} variant={'ghost'} colorScheme={'orange'}>
                             <Link to={'/upload'}>Upload</Link>  
                         </Button>
+                        <Button onClick={onClose} variant={'ghost'} colorScheme={'orange'}>
+                            <Link to={'/contact'}>Contact</Link>  
+                        </Button>
                     </VStack>
                 <HStack pos={'absolute'} bottom={'10'} left={'0'} w={'full'} justifyContent={'space-evenly'}>
                         <Button onClick={onClose} colorScheme={'orange'}>
