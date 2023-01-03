@@ -20,7 +20,7 @@ const Footer = () => {
             </VStack >
             <VStack w={'full'} borderLeft={['none', '1px solid white']} borderRight={['none', '1px solid white']}>
             <Heading size={'md'} textAlign={'center'}>
-                Video Hub 
+                TeLLer PaRty 
             </Heading>
             <Text>
                 All rights reserved

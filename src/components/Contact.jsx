@@ -1,7 +1,4 @@
 import {
-    Alert,
-  AlertIcon,
-  //   Avatar,
   Button,
   Container,
   Heading,
@@ -11,6 +8,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React, { useRef } from 'react';
+import Swal from 'sweetalert2'
 import emailjs from '@emailjs/browser';
 
 
@@ -26,6 +24,13 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        Swal.fire({
+            title: 'Good Job',
+            text: 'Form Submitted Successfully!',
+            icon: 'success',
+            confirmButtonText: 'OK'
+          })
 
         
         e.target.reset();
@@ -66,7 +71,7 @@ const Contact = () => {
             focusBorderColor={'orange.400'}
             required
           />
-          <Button colorScheme={'orange'} type={'submit'} value={'Send'}>
+          <Button id={'submit'} colorScheme={'orange'} type={'submit'} value={'Send'}>
             Send
           </Button>
         </VStack>
