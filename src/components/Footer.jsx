@@ -5,11 +5,11 @@ import { AiOutlineSend } from 'react-icons/ai'
 const Footer = () => {
   return (
     // minH={'40'} box
-    <Box bgColor={'blackAlpha.900'} flex={'0 0 50px'} p={'10'} color={'white'}>
+    <Box bgColor={'blackAlpha.900'} flex={'0 0 50'} p={'10'} color={'white'}>
         <Stack direction={['column', 'row']}>
             <VStack alignItems={'stretch'} w={'full'}>
                 <Heading size={'md'} textAlign={'center'}>
-                    Subscribe for more
+                    Subscribe for moree
                 </Heading>
                 <HStack >
                     <Input placeholder='Enter email here' border={'1px solid white'} />
