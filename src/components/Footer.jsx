@@ -10,7 +10,7 @@ const Footer = () => {
         <Stack direction={['column', 'row']}>
             <VStack alignItems={'stretch'} w={'full'}>
                 <Heading size={'md'} textAlign={'center'}>
-                    Subscribe for moree dishant
+                    Subscribe for more
                 </Heading>
                 <HStack >
                     <Input placeholder='Enter email here' border={'1px solid white'} />
