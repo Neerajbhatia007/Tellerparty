@@ -71,7 +71,7 @@ const Contact = () => {
             focusBorderColor={'orange.400'}
             required
           />
-          <Button id={'submit'} colorScheme={'orange'} type={'submit'} value={'Send'}>
+          <Button colorScheme={'orange'} type={'submit'} value={'Send'}>
             Send
           </Button>
         </VStack>
