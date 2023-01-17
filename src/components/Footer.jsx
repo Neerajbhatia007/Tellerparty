@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     // minH={'40'} box
     // flex={'0 0 50'}
-    <Box bgColor={'blackAlpha.900'}  p={'10'} color={'white'}>
+    <Box bgColor={'blackAlpha.900'}  p={'10'} color={'white'} pos={'relative'}>
         <Stack direction={['column', 'row']}>
             <VStack alignItems={'stretch'} w={'full'}>
                 <Heading size={'md'} textAlign={'center'}>
